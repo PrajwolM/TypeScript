@@ -1,5 +1,5 @@
-TypeScript is the advanced Version of JavaScript.
-It supports optional static typing rather than dynamic typing like in JavaScript.
+#TypeScript is the advanced Version of JavaScript.
+- It supports optional static typing rather than dynamic typing like in JavaScript.
 => Once the type of a variable is declared is can't be change is static typing.
 => This also means that the errors due to incorrect type use is found soon .
 => It also means that the code are more strucured.
@@ -7,6 +7,7 @@ It supports optional static typing rather than dynamic typing like in JavaScript
 => more time to compile than JS.
 => Less time to develop.
 => improve api documentation.
+=> intellisense
 
 
 => JS is more supported
