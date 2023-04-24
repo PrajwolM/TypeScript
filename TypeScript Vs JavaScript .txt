@@ -1,0 +1,14 @@
+TypeScript is the advanced Version of JavaScript.
+It supports optional static typing rather than dynamic typing like in JavaScript.
+=> Once the type of a variable is declared is can't be change is static typing.
+=> This also means that the errors due to incorrect type use is found soon .
+=> It also means that the code are more strucured.
+=> TS is more informative than JS.
+=> more time to compile than JS.
+=> Less time to develop.
+=> improve api documentation.
+
+
+=> JS is more supported
+=> faster compile time. because TS is  converteed to JS before they can run in the browser.
+
