@@ -1,0 +1,78 @@
+
+Fundamentals 1
+Exercises
+
+• For each of these values, what type will the TypeScript compiler infer?
+let a = 100;
+=> number
+let b = 'Coffee';
+=>string
+let c = [true, false, false];
+=>boolean[]
+let d = {age: number};
+=>object with a age property which takes number value
+let e = [3];
+=>number array
+let f;
+=>any
+let g = [];
+=> any array.
+
+• What are the compilation errors in each of the following code snippets?
+let song: {
+title: string,
+releaseYear: number
+} = { title: 'My song' };
+=>release year not assigned
+
+let prices = [100, 200, 300];
+prices[0] = '$100';
+=> compiler ingers the prices as number array but the prices zero contains string.
+
+
+function myFunc(a: number, b: number): number { }
+=>the function doesn't have the return used in it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions are on the next page.
+Fundamentals 2
+Copyright 2022 Code with Mosh codewithmosh.com
+// number
+let a = 100;
+// string
+let b = 'Coffee';
+// boolean[]
+let c = [true, false, false];
+// {age: 20}
+let d = {age: 20};
+// number[]
+let e = [3];
+// any
+let f;
+// any[]
+let g = [];
+Solutions
+• For each of these values, what type will the TypeScript compiler infer?
+• What are the compilation errors in each of the following code snippets?
+let song: {
+title: string,
+releaseYear: number
+} = { title: 'My song' };
+Property releaseYear is not given when initializing the object.
+let prices = [100, 200, 300];
+prices[0] = '$100';
+We’ve declared a number[] but we’re trying to store a string in this array.

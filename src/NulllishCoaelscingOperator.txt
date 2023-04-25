@@ -1,0 +1,5 @@
+// Falsy values includes {undefined ,null ,' ' ,false, 0}
+// ?? => nullish coalescingOperator
+
+speed: speed ?? 30;
+=> if speed is not null or undefined use that value else use 30;
